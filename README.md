@@ -1,13 +1,6 @@
-Grayscale Jekyll theme
+Authentic Jazz Weekend 2016 Homepage
 =========================
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+Based on Grayscale Jekyll theme
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
-
-=========
 For more details, read the [documentation](http://jekyllrb.com/)
