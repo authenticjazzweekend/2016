@@ -1,42 +1,45 @@
 <!-- notice Section -->
 <section id="notice" class="container content-section text-center">
   <div class="row">
+    <div class="span12"><hr /></div>
     <div class="text-center">
       <h2>Notice</h2>
     </div>
   </div>
   <div class="row">
     {% for post in site.posts %}
-    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
-    <div class="col-lg-3 col-md-6">
-      <div class="row">
-        <hr class="section-heading-spacer">
-        <div class="clearfix"></div>
-        <h2 class="section-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p>{{ post.date | date: "%F" }}</p>
-        {% if post.img != null %}
-        <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}" alt="">
-        {% endif %}
-        <p>{{ post.excerpt }}</p>
+      {% if forloop.index > 4 %}
+        {% break %}
+      {% endif %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle == 'odd' %}
+      <div class="col-lg-3 col-md-6 col-md-offset-">
+        <div class="row">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <h2 class="section-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <p>{{ post.date | date: "%F" }}</p>
+          {% if post.img != null %}
+          <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}" alt="">
+          {% endif %}
+          <p>{{ post.excerpt }}</p>
+        </div>
       </div>
-    </div>
-    {% else %}
-    <div class="col-lg-3 col-md-6">
-      <div class="row">
-        <hr class="section-heading-spacer">
-        <div class="clearfix"></div>
-        <h2 class="section-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p>{{ post.date | date: "%F" }}</p>
-        {% if post.img != null %}
-        <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}" alt="">
-        {% endif %}
-        <p>{{ post.excerpt }}</p>
+      {% else %}
+      <div class="col-lg-3 col-md-6">
+        <div class="row">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <h2 class="section-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <p>{{ post.date | date: "%F" }}</p>
+          {% if post.img != null %}
+          <img class="img-responsive" src="{{ post.img | prepend: site.baseurl }}" alt="">
+          {% endif %}
+          <p>{{ post.excerpt }}</p>
+        </div>
       </div>
-    </div>
-    {% endif %}
+      {% endif %}
     {% endfor %}
-
   </div>
 </div>
 </section>
