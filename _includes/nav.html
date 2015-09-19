@@ -15,22 +15,22 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="{% if page.url == "/" %}#page-top{% else %}{{site.baseurl}}/#page-top{% endif %}"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="{% if page.url == "/" %}#about{% else %}{{site.baseurl}}/#about{% endif %}">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#notice">Notice</a>
+                        <a class="page-scroll" href="{% if page.url == "/" %}#notice{% else %}{{site.baseurl}}/#notice{% endif %}">Notice</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#inspirations">Inspirations</a>
+                        <a class="page-scroll" href="{% if page.url == "/" %}#inspirations{% else %}{{site.baseurl}}/#inspirations{% endif %}">Inspirations</a>
                     </li>
                     <li>
                         <a class='{% if page.url == "regsistration/" %}active{% endif %}' href='{{site.baseurl}}/regsistration'>Registration</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="{% if page.url == "/" %}#contact{% else %}{{site.baseurl}}/#contact{% endif %}">Contact</a>
                     </li>
                 </ul>
             </div>
