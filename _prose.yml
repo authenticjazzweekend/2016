@@ -6,6 +6,10 @@ prose:
   ignore: ['index.html']
   metadata:
     _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "notice"
       - name: "layout"
         field:
           element: "hidden"
@@ -35,13 +39,12 @@ prose:
         field:
           element: "hidden"
           value: "default"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
       - name: "permalink"
         field:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "static"

@@ -3,6 +3,7 @@ layout: posts
 img: "/img/ajw-poster.jpeg"
 tags: Teachers Event
 published: true
+category: notice
 title: Teacher Event
 excerpt: "스페셜 이벤트! 나는 OOO가 좋다"
 ---

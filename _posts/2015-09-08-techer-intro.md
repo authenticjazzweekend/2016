@@ -2,6 +2,7 @@
 layout: posts
 tags: Teachers
 published: true
+category: notice
 title: Teacher 소개
 excerpt: "2016년을 4회를 맞이하는 Authentic Jazz Weekend~! 우리에게 에너지와 영감을 줄 최고의 강사 4인을 소개합니다. 신청은 9월 21일(월) 13시부터 1차와 2차 신청이 동시에 진행됩니다."
 ---

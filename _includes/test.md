@@ -1,9 +1,0 @@
----
----
-About Authentic Jazz Weekend
-=============================
-
-네번째 Authentic Jazz Weekend 가 1월 15일부터 1월 17일까지 열립니다. AJW는 한국 뿐 아니라 세계에서 댄서들이 참가하는 세계적인 행사입니다.  강습에서는 강사들이 전해주는 다양한 에너지와 영감을 얻을 수 있습니다. 다양한 컴피티션에서는 자신을 드러내고 다른 댄서들로부터의 영감도 얻을 수 있습니다. 파티에서는 국내외 유명 DJ 들이 재즈와 리듬을 가득 채워줄 것입니다.
-
-The Authentic Jazz Weekend 2016 will be held in Seoul, Korea on 15-18 January 2016, at the Big Apple Swing Dance Hall. Swing dancers from not only Korea but also foreign countries attend and enjoy. Take part in workshop taught by top Authentic Jazz Dance instructors, and get their energy and inspirations. Competitions give you another inspirations. DJs fill the whole party with the Jazz and Rhythm.
-
