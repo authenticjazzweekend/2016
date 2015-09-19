@@ -3,9 +3,10 @@ layout: posts
 img: /media/921.png
 tags: Registration
 excerpt: "Attention Early Birds! 1st Registration will be opened on 21st, Sep. "
-published: false
+published: true
 title: Registration for Early Bird
 ---
+
 
 English ver. appears below Korean.
 -----------------------------------------------
