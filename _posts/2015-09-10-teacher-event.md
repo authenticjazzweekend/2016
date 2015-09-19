@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 img: "/img/ajw-poster.jpeg"
 tags: Teachers Event
 published: true

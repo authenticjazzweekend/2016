@@ -6,23 +6,14 @@ prose:
   ignore: ['index.html']
   metadata:
     _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "title"
+          value: "posts"
+      - name: "img"
         field:
           element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
+          label: "image"
           value: ""
       - name: "tags"
         field:
@@ -38,11 +29,21 @@ prose:
               value: "pears"
             - name: "Mangos"
               value: "mangos"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "Summary"
+          value: ""
     _posts/static:
       - name: "layout"
         field:
           element: "hidden"
-          value: "page"
+          value: "default"
       - name: "title"
         field:
           element: "text"
@@ -53,4 +54,3 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-

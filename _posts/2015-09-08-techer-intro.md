@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 tags: Teachers
 published: true
 title: Teacher 소개
