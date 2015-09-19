@@ -4,7 +4,7 @@ img: /media/921.png
 tags: Registration
 excerpt: "Attention Early Birds! 1st Registration will be opened on 21st, Sep. "
 published: true
-title: Registration for Early Bird
+title: Registration
 ---
 
 
