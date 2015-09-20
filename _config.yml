@@ -21,3 +21,5 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+date_format: "%b %-d, %Y"
