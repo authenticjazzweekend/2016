@@ -3,9 +3,10 @@ layout: posts
 img: ""
 tags: Event
 excerpt: "\"나는 OOO가 좋다\" 이벤트의 당첨자를 발표합니다."
-published: false
+published: true
 title: "이벤트 당첨자 공지!"
 ---
+
 
 
 ## 당첨자 공지
