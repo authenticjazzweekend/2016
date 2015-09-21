@@ -6,6 +6,7 @@ excerpt: "Attention Early Birds! 1st Registration will be opened on 21st, Sep. "
 category: notice
 published: true
 title: Registration
+comments: true
 ---
 
 

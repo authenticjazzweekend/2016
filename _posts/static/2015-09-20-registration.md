@@ -3,6 +3,7 @@ layout: page
 published: true
 permalink: registration/
 category: static
+comments: true
 ---
 
 ## 등록 신청 Registration
