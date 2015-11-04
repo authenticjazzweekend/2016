@@ -27,6 +27,9 @@
                         <a class="page-scroll" href="{% if page.url == "/" %}#inspirations{% else %}{{site.baseurl}}/#inspirations{% endif %}">Inspirations</a>
                     </li>
                     <li>
+                        <a class='{% if page.url == "competition/" %}active{% endif %}' href='{{site.baseurl}}/competition'>Competition</a>
+                    </li>
+                    <li>
                         <a class='{% if page.url == "registration/" %}active{% endif %}' href='{{site.baseurl}}/registration'>Registration</a>
                     </li>
                     <li>
