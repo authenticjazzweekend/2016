@@ -6,13 +6,31 @@ category: static
 comments: true
 ---
 
-## 등록 신청 Registration
+# 등록 신청 Registration
 
 신청 링크 : [http://goo.gl/forms/Xed8PyE5nD](http://goo.gl/forms/Xed8PyE5nD)
 
+## 패키지 안내
+
+### 정원 및 가격
+
+#### Full Package (120명)
+
+* 1차 (23만, 230,000 KRW)
+* 2차 (24만, 240,000 KRW
+* 3차 (25만, 250,000 KRW)
+이후 미정
+
+#### 개별 패키지
+
+* 토요일 데이패스: 금요일 파티 + 토 워크샵/파티, 10명 (16만원)
+* 일요일 데이패스: 금요일 파티 + 일 워크샵/파티, 10명 (13만원)
+* 풀파티 패스: 금,토,일 파티, 30명 (8만원)
+* 일별 파티패스: 금/토/일 일별 20명 (2.5만/3만/3만
+
 ## 확인 Confirmation
 
-AJW 2016 풀패키지 신청자 명단 발표합니다. 아래 링크에서 확인하실 수 있습니다.
+AJW 2016 신청자 명단은 아래 링크에서 확인하실 수 있습니다.
 
 확인 링크 : [https://goo.gl/NuzWiW](https://goo.gl/NuzWiW)
 
